@@ -1,0 +1,6 @@
+Net_1 is for obtaining NaCl, net_2 is for obtaining oil volume percentage.
+
+Import the file into the matlat workspace, and use sim function to obtain the phantom recipe. An example is shown: 
+nacl=sim(net_1,[eps,sgm,F]');
+oil=sim(net_2,[eps,sgm,F]').
+Please enter Mhz frequency.
